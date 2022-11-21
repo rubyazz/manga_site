@@ -28,9 +28,6 @@
             <ul class="navbar-nav mr-auto"></ul>
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" th:href="@{/}" href="#">home</a>
-                </li>
-                <li class="nav-item active">
                     <a class="nav-link" th:href="@{/shop}" href="#">shop</a>
                 </li>
                 <li class="nav-item active">
@@ -38,12 +35,6 @@
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" sec:authorize="isAuthenticated()" th:href="@{/logout}" href="#">logout</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" th:href="@{/cart}" href="#">cart</a>
-                </li>
-                <li class="nav-item active">
-                    <span class="nav-link" th:text="${cartCount}">0</span>
                 </li>
             </ul>
 
@@ -71,7 +62,7 @@
                     <div class="col-sm-7 d-flex justify-content-center">
                         <div class="card-body">
                             <h5 class="card-title" th:text="${product.name}"></h5>
-                            <h4>₹ <span th:text="${product.price}"></span></h4>
+                            <h4>₸ <span th:text="${product.price}"></span></h4>
                             <p th:text="${product.description}" >Suresh Dasari is a founder and technical lead developer in tutlane.</p>
                             <a href="#" th:href="@{/shop/viewproduct/{id}(id=${product.id})}" class="btn btn-primary">View Product</a>
                         </div>
