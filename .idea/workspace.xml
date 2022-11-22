@@ -5,45 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc46c896-7611-4112-b417-d330927cc1e9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sheryians/major/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/productImages/awp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/productImages/oo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/productImages/usp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.trace.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/productImages/0039179_benelli-20056-nova-185-12ga-7rd-magazine-ghost-ring-sights-le-only__32663.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/productImages/360fx360f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/productImages/400px-P250-F-Nitron-detail-L.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/productImages/M.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/productImages/Mag7-sbs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/productImages/Screenshot from 2022-11-15 20-02-45.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/productImages/images.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/productImages/jjjj.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/productImages/l.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/db.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sheryians/major/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sheryians/major/controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sheryians/major/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sheryians/major/repository/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sheryians/major/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sheryians/major/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/cart.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/checkout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/orderPlaced.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/adminHome.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/adminHome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/categories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/categoriesAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/categoriesAdd.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/products.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/productsAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/productsAdd.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/shop.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/viewProduct.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/viewProduct.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sheryians/major/MajorApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sheryians/major/controller/AdminController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sheryians/major/dto/ProductDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sheryians/major/model/Category.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sheryians/major/model/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sheryians/major/repository/CategoryRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sheryians/major/repository/ProductRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sheryians/major/service/CategoryService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sheryians/major/service/ProductService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/cart.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/checkout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/orderPlaced.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/products.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sheryians/major/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sheryians/major/controller/AdminController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/shop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/viewProduct.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/viewProduct.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

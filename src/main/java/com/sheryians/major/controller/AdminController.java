@@ -97,5 +97,10 @@ public class AdminController {
 
         return "redirect:/admin/products";
     }
+    @GetMapping("/admin/product/delete/{id}")
+    public String deleteProduct(@PathVariable long id){
+        productService.removeProductsById(id);
+        return "redirect:/admin/products";
+    }
 
 }

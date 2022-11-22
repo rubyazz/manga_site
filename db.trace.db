@@ -1,0 +1,24 @@
+2022-11-22 02:33:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION VARCHAR(255)": "STRINGDECODE('The AK-47, officially known as the Avtomat Kalashnikova, is a gas-operated assault rifle that is chambered for the... (285)"; SQL statement:
+insert into product (category_id, description, image_name, name, price, weight, id) values (?, ?, ?, ?, ?, ?, ?) [22001-200]
+2022-11-22 02:34:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION VARCHAR(255)": "STRINGDECODE('The AK-47, officially known as the Avtomat Kalashnikova, is a gas-operated assault rifle that is chambered for the... (285)"; SQL statement:
+insert into product (category_id, description, image_name, name, price, weight, id) values (?, ?, ?, ?, ?, ?, ?) [22001-200]
+2022-11-22 02:34:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION VARCHAR(255)": "STRINGDECODE('The AK-47, officially known as the Avtomat Kalashnikova, is a gas-operated assault rifle that is chambered for the... (285)"; SQL statement:
+insert into product (category_id, description, image_name, name, price, weight, id) values (?, ?, ?, ?, ?, ?, ?) [22001-200]
+2022-11-22 02:48:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION VARCHAR(255)": "'The M249 light machine gun, also known as the M249 Squad Automatic Weapon, which continues to be the manufacturer''s designatio... (307)"; SQL statement:
+insert into product (category_id, description, image_name, name, price, weight, id) values (?, ?, ?, ?, ?, ?, ?) [22001-200]
+2022-11-22 02:48:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION VARCHAR(255)": "'The M249 light machine gun, also known as the M249 Squad Automatic Weapon, which continues to be the manufacturer''s designatio... (307)"; SQL statement:
+insert into product (category_id, description, image_name, name, price, weight, id) values (?, ?, ?, ?, ?, ?, ?) [22001-200]
+2022-11-22 02:49:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION VARCHAR(255)": "'The M249 light machine gun, also known as the M249 Squad Automatic Weapon, which continues to be the manufacturer''s designatio... (307)"; SQL statement:
+insert into product (category_id, description, image_name, name, price, weight, id) values (?, ?, ?, ?, ?, ?, ?) [22001-200]
+2022-11-22 02:49:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION VARCHAR(255)": "'The M249 light machine gun, also known as the M249 Squad Automatic Weapon, which continues to be the manufacturer''s designatio... (307)"; SQL statement:
+insert into product (category_id, description, image_name, name, price, weight, id) values (?, ?, ?, ?, ?, ?, ?) [22001-200]
+2022-11-22 02:50:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION VARCHAR(255)": "'The M249 light machine gun, also known as the M249 Squad Automatic Weapon, which continues to be the manufacturer''s designatio... (307)"; SQL statement:
+insert into product (category_id, description, image_name, name, price, weight, id) values (?, ?, ?, ?, ?, ?, ?) [22001-200]
