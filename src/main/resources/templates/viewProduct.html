@@ -15,7 +15,7 @@
 <body>
 
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav style="background-color:#F0EA38;" class="navbar navbar-expand-lg navbar-light">
     <div class="container-fluid">
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -24,7 +24,7 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto"></ul>
+            <ul class="navbar-nav mr-auto">MangaRead</ul>
             <ul class="navbar-nav">
                 <li class="nav-item active">
                     <a class="nav-link" th:href="@{/}" href="#">home</a>
@@ -38,9 +38,7 @@
                 <li class="nav-item active">
                     <a class="nav-link" sec:authorize="isAuthenticated()" th:href="@{/logout}" href="#">logout</a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" th:href="@{/cart}" href="#">cart</a>
-                </li>
+
                 <li class="nav-item active">
                     <span class="nav-link" th:text="${cartCount}"></span>
                 </li>
@@ -52,17 +50,16 @@
 <div class="container mt-5">
     <div class="row">
         <div class="col-sm-5 d-flex justify-content-center">
-            <img class="mt-5" height="300px" width="300px" src="" th:src="@{${'/productImages/' + product.imageName}}"
+            <img class="mt-5" height="350px" width="250px" src="" th:src="@{${'/productImages/' + product.imageName}}"
                  alt="">
         </div>
         <div class="col-sm-7 mt-5">
             <h2 th:text="${product.name}"></h2>
             <p th:text="${product.category.name}"></p>
             <h2>₸ <span th:text="${product.price}"></span></h2>
-            <h5>Вес:
-                <spna th:text="${product.weight}"></spna> грам.
-            </h5>
+
             <p th:text="${product.description}"></p>
+            <p th:text="${product.author}"></p>
             <a href="" th:href="@{/shop}" class="btn btn-primary">Back</a>
         </div>
     </div>

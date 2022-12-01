@@ -21,7 +21,7 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto"></ul>
+            <ul class="navbar-nav mr-auto">MangaRead</ul>
             <ul class="navbar-nav">
                 <li class="nav-item active">
                     <a class="nav-link" th:href="@{/admin}" href="#">admin-home</a>
@@ -63,14 +63,14 @@
                            placeholder="Price">
                 </div>
                 <div class="form-group">
-                    <label for="weight">Weight in grams</label>
-                    <input type="number" class="form-control" required th:field="*{weight}" name="weight" id="weight"
-                           placeholder="Weight">
+                    <label for="author">Author</label>
+                    <input class="form-control" th:field="*{author}" name="author" id="author"></input>
                 </div>
                 <div class="form-group">
                     <label for="description">Product Description</label>
                     <textarea class="form-control" rows="5" th:field="*{description}" name="description" id="description"></textarea>
                 </div>
+
             </div>
             <div class="col-sm-5">
                 <p>Product Image</p>

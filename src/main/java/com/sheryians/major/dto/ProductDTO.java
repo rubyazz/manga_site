@@ -15,5 +15,6 @@ public class ProductDTO {
     private double price;
     private double weight;
     private String description;
+    private String author;
     private String imageName;
 }

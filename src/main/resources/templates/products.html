@@ -19,7 +19,7 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto"></ul>
+            <ul class="navbar-nav mr-auto">MangaRead</ul>
             <ul class="navbar-nav">
                 <li class="nav-item active">
                     <a class="nav-link" th:href="@{/admin}" href="#">admin-home</a>
@@ -35,16 +35,16 @@
 </nav>
 <div class="container-fluid">
 
-    <a th:href="@{/admin/products/add}" style="margin: 20px 0" class="btn btn-primary">Add Product</a>
+    <a th:href="@{/admin/products/add}" style="margin: 20px 0" class="btn btn-primary">Add Manga</a>
     <table class="table">
         <thead class="thead-light">
         <tr>
             <th scope="col">SN</th>
-            <th scope="col">Product Name</th>
-            <th scope="col">Category</th>
+            <th scope="col">Manga Name</th>
+            <th scope="col">Genre</th>
+            <th scope="col">Author</th>
             <th scope="col">Preview</th>
             <th scope="col">Delete</th>
-            <th scope="col">Update</th>
         </tr>
         </thead>
         <tbody>
@@ -53,10 +53,10 @@
             <th scope="row" th:text="${iStat.index + 1}">1</th>
             <td th:text="${product.name}">Larry</td>
             <td th:text="${product.category.name}">Larry</td>
+            <td th:text="${product.author}"></td>
             <td><img src="" height="200px" width="300px"  th:src="@{${'/productImages/' + product.imageName}}"></td>
 
             <td><a href="" th:href="@{/admin/product/delete/{id}(id=${product.id})}" class="btn btn-danger">Delete</a></td>
-            <td><a href="" th:href="@{/admin/product/update/{id}(id=${product.id})}" class="btn btn-warning">Update</a></td>
 
         </tr>
         </tbody>

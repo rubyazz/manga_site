@@ -2,9 +2,7 @@ package com.sheryians.major.model;
 
 import lombok.Data;
 
-import javax.annotation.sql.DataSourceDefinition;
 import javax.persistence.*;
-import javax.validation.OverridesAttribute;
 
 @Entity
 @Data
@@ -20,5 +18,6 @@ public class Product {
     private double price;
     private double weight;
     private String description;
+    private String author;
     private String imageName;
 }

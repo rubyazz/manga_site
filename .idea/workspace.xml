@@ -5,19 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc46c896-7611-4112-b417-d330927cc1e9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/db.trace.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/productImages/0039179_benelli-20056-nova-185-12ga-7rd-magazine-ghost-ring-sights-le-only__32663.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/productImages/360fx360f.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/productImages/400px-P250-F-Nitron-detail-L.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/productImages/M.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/productImages/Mag7-sbs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/productImages/Screenshot from 2022-11-15 20-02-45.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/productImages/images.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/productImages/jjjj.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/productImages/l.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/k.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/productImages/j.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/productImages/s.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/db.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/db.trace.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sheryians/major/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sheryians/major/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sheryians/major/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sheryians/major/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sheryians/major/dto/ProductDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sheryians/major/dto/ProductDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sheryians/major/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sheryians/major/model/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/adminHome.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/adminHome.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/categories.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/categoriesAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/categoriesAdd.html" afterDir="false" />
@@ -26,7 +23,16 @@
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/shop.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/viewProduct.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/viewProduct.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sheryians/major/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sheryians/major/controller/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sheryians/major/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sheryians/major/controller/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sheryians/major/dto/ProductDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sheryians/major/dto/ProductDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sheryians/major/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sheryians/major/model/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/adminHome.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/adminHome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/categories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/categoriesAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/categoriesAdd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/products.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/productsAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/productsAdd.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/shop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/viewProduct.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/viewProduct.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,17 +88,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/rubyazz/Desktop/itachi&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/home/rubyazz/java-fx/major/src/main/resources/static/images",
+    "settings.editor.selected.configurable": "project.propCompiler"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static/images" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
